@@ -10,6 +10,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
   if (savedUsername && savedPassword) {
     existingBtn.style.display = "block";
+  } else {
+    existingBtn.style.display = "none";
   }
 });
 
